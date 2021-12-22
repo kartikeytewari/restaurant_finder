@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/kartikeytewari/restaurant_finder/issues"
   },
-  "homepage": "https://github.com/kartikeytewari/restaurant_finder#readme"
+  "homepage": "https://github.com/kartikeytewari/restaurant_finder#readme",
+  "dependencies": {
+    "request": "^2.88.2"
+  }
 }
