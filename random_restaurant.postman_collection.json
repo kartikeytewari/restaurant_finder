@@ -1,0 +1,50 @@
+{
+	"info": {
+		"_postman_id": "93a3cf9d-dec8-4486-929e-8ab5c7cda058",
+		"name": "random_restaurant",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "populate_db",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://random-data-api.com/api/restaurant/random_restaurant",
+					"protocol": "https",
+					"host": [
+						"random-data-api",
+						"com"
+					],
+					"path": [
+						"api",
+						"restaurant",
+						"random_restaurant"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "find_restaurant",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/type/Ethiopean",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"type",
+						"Ethiopean"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
