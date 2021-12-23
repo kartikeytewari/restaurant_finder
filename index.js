@@ -3,9 +3,6 @@ const app=express();
 const moment=require("moment")
 var mysql = require('mysql');
 
-// configure app
-app.use(body_parser.urlencoded({ extended: true }));
-
 // Home Page
 app.get("/",function(req,res)
 {
