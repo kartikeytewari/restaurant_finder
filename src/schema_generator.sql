@@ -1,6 +1,9 @@
+-- make database
 drop database restaurant_finder;
 create database restaurant_finder;
 show databases;
+
+-- create table
 use restaurant_finder;
 create table restaurant(
     restaurant_id int,
