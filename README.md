@@ -1,6 +1,6 @@
 # Restaurant finder
 
-A API to find restaurants. The API searches and returns restaurants that are open at the time of calling it.
+An API to find restaurants. The API searches and returns restaurants that are open at the time of calling it.
 
 ## Installation Instructions
 1. Clone the repository with: `git clone https://github.com/kartikeytewari/restaurant_finder`
