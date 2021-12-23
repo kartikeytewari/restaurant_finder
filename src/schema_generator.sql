@@ -4,6 +4,7 @@ show databases;
 use restaurant_finder;
 create table restaurant(
     restaurant_id int,
+    name varchar(256),
     type varchar(256),
     description varchar(8000),
     time_monday_open time,
