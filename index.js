@@ -61,7 +61,7 @@ app.get("/type/:type_id", function(req,res)
     {
         // thursday
         console.log("Thursday")
-        let local=[];
+        let open_rest=[];
         mysql_connection.query(`select name, type from restaurant where time_thursday_open<=\"${present_time}\" and \"${present_time}\"<=time_thursday_close and type=\"${req.params.type_id}\"`, function(err, result, fields)
         {
             if (err)
@@ -70,9 +70,12 @@ app.get("/type/:type_id", function(req,res)
             }
             for (let key in result)
             {
-                local.push(result[key]["name"]);
+                open_rest.push(result[key]["name"]);
             }
-            console.log(local);
+            console.log(open_rest);
+            res.json({
+                open_restaurants: open_rest
+            })
         })
     }
     else if (day_now == 5)
