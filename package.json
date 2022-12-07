@@ -19,7 +19,7 @@
   "homepage": "https://github.com/kartikeytewari/restaurant_finder#readme",
   "dependencies": {
     "body-parser": "^1.19.1",
-    "express": "^4.17.2",
+    "express": "^4.17.3",
     "moment": "^2.29.2",
     "mysql": "^2.18.1",
     "request": "^2.88.2"
